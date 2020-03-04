@@ -40,7 +40,6 @@
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.адрес_складTextBox = new System.Windows.Forms.TextBox();
-            this.номер_телефона_складаTextBox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -55,6 +54,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
+            this.номер_телефона_складаMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             адрес_складLabel = new System.Windows.Forms.Label();
             номер_телефона_складаLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).BeginInit();
@@ -126,7 +126,7 @@
             this.складBindingNavigator.MovePreviousItem = null;
             this.складBindingNavigator.Name = "складBindingNavigator";
             this.складBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.складBindingNavigator.Size = new System.Drawing.Size(955, 25);
+            this.складBindingNavigator.Size = new System.Drawing.Size(966, 25);
             this.складBindingNavigator.TabIndex = 0;
             this.складBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -166,16 +166,6 @@
             this.адрес_складTextBox.Name = "адрес_складTextBox";
             this.адрес_складTextBox.Size = new System.Drawing.Size(572, 26);
             this.адрес_складTextBox.TabIndex = 5;
-            // 
-            // номер_телефона_складаTextBox
-            // 
-            this.номер_телефона_складаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.складBindingSource, "Номер_телефона_склада", true));
-            this.номер_телефона_складаTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.номер_телефона_складаTextBox.Location = new System.Drawing.Point(271, 143);
-            this.номер_телефона_складаTextBox.MaxLength = 12;
-            this.номер_телефона_складаTextBox.Name = "номер_телефона_складаTextBox";
-            this.номер_телефона_складаTextBox.Size = new System.Drawing.Size(128, 23);
-            this.номер_телефона_складаTextBox.TabIndex = 7;
             // 
             // button2
             // 
@@ -332,13 +322,24 @@
             this.button11.Visible = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // номер_телефона_складаMaskedTextBox
+            // 
+            this.номер_телефона_складаMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.складBindingSource, "Номер_телефона_склада", true));
+            this.номер_телефона_складаMaskedTextBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.номер_телефона_складаMaskedTextBox.Location = new System.Drawing.Point(249, 141);
+            this.номер_телефона_складаMaskedTextBox.Mask = "+000(00) 000-00-00";
+            this.номер_телефона_складаMaskedTextBox.Name = "номер_телефона_складаMaskedTextBox";
+            this.номер_телефона_складаMaskedTextBox.Size = new System.Drawing.Size(182, 26);
+            this.номер_телефона_складаMaskedTextBox.TabIndex = 22;
+            // 
             // Warehouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Учет_оборудования.Properties.Resources._15f8153cb5f61ff9bfad853c2966eb6d;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(955, 345);
+            this.ClientSize = new System.Drawing.Size(966, 345);
+            this.Controls.Add(this.номер_телефона_складаMaskedTextBox);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
@@ -356,7 +357,6 @@
             this.Controls.Add(адрес_складLabel);
             this.Controls.Add(this.адрес_складTextBox);
             this.Controls.Add(номер_телефона_складаLabel);
-            this.Controls.Add(this.номер_телефона_складаTextBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.складBindingNavigator);
             this.Name = "Warehouse";
@@ -383,7 +383,6 @@
 		private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox адрес_складTextBox;
-		private System.Windows.Forms.TextBox номер_телефона_складаTextBox;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button4;
@@ -398,5 +397,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.MaskedTextBox номер_телефона_складаMaskedTextBox;
     }
 }

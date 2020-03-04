@@ -89,9 +89,6 @@ namespace Учет_оборудования
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            var node = treeView1.SelectedNode;
-            var path = node.FullPath;
-            textBox1.Text = path;
         }
     }
 }

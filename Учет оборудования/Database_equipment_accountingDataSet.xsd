@@ -521,7 +521,7 @@ SELECT ID_Сотрудника, Idd_Склада, Номер_паспорта, �
               <xs:element name="Номер_телефона_поставщика" msprop:Generator_ColumnVarNameInTable="columnНомер_телефона_поставщика" msprop:Generator_ColumnPropNameInRow="Номер_телефона_поставщика" msprop:Generator_ColumnPropNameInTable="Номер_телефона_поставщикаColumn" msprop:Generator_UserColumnName="Номер_телефона_поставщика">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="12" />
+                    <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -542,7 +542,7 @@ SELECT ID_Сотрудника, Idd_Склада, Номер_паспорта, �
               <xs:element name="Номер_телефона_склада" msprop:Generator_ColumnVarNameInTable="columnНомер_телефона_склада" msprop:Generator_ColumnPropNameInRow="Номер_телефона_склада" msprop:Generator_ColumnPropNameInTable="Номер_телефона_складаColumn" msprop:Generator_UserColumnName="Номер_телефона_склада">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="12" />
+                    <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -557,7 +557,7 @@ SELECT ID_Сотрудника, Idd_Склада, Номер_паспорта, �
               <xs:element name="Номер_паспорта" msprop:Generator_ColumnVarNameInTable="columnНомер_паспорта" msprop:Generator_ColumnPropNameInRow="Номер_паспорта" msprop:Generator_ColumnPropNameInTable="Номер_паспортаColumn" msprop:Generator_UserColumnName="Номер_паспорта">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="9" />
+                    <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -599,7 +599,7 @@ SELECT ID_Сотрудника, Idd_Склада, Номер_паспорта, �
               <xs:element name="Номер_телефона_сотрудника" msprop:Generator_ColumnVarNameInTable="columnНомер_телефона_сотрудника" msprop:Generator_ColumnPropNameInRow="Номер_телефона_сотрудника" msprop:Generator_ColumnPropNameInTable="Номер_телефона_сотрудникаColumn" msprop:Generator_UserColumnName="Номер_телефона_сотрудника">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="12" />
+                    <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>

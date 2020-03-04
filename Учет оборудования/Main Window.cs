@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace Учет_оборудования
 {
@@ -18,6 +17,14 @@ namespace Учет_оборудования
 		private int counter = 0;
 		public Form1()
 		{
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture =
+                    System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture =
+                    System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+
+            }
 			InitializeComponent();
 
 			
@@ -25,6 +32,22 @@ namespace Учет_оборудования
 		
 		private  void Form1_Load(object sender, EventArgs e)
 		{
+            comboBox1.DataSource = new System.Globalization.CultureInfo[]
+                {
+                    System.Globalization.CultureInfo.GetCultureInfo("ru-RU"),
+                     System.Globalization.CultureInfo.GetCultureInfo("en-US"),
+                };
+            comboBox1.DisplayMember = "NativeName";
+            comboBox1.ValueMember = "Name";
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                comboBox1.SelectedValue = Properties.Settings.Default.Language;
+            }
+
+
+
+
+
 			button1.BackColor = default(Color);
 			button2.BackColor = default(Color);
 			button3.BackColor = default(Color);
@@ -216,5 +239,21 @@ namespace Учет_оборудования
 			data += year;
 			label4.Text = data;
 		}
-	}
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Language = comboBox1.SelectedValue.ToString();
+            Properties.Settings.Default.Save();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+    }
 }

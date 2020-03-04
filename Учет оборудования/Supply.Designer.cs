@@ -55,8 +55,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             id_ПоставщикаLabel = new System.Windows.Forms.Label();
             idd_ОборудованияLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).BeginInit();
@@ -241,24 +239,11 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.ValueMember = "ID_Оборудования";
             // 
-            // treeView1
-            // 
-            resources.ApplyResources(this.treeView1, "treeView1");
-            this.treeView1.Name = "treeView1";
-            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            // 
             // Supply
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Учет_оборудования.Properties.Resources._15f8153cb5f61ff9bfad853c2966eb6d;
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -313,7 +298,5 @@
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -174,6 +174,9 @@
     <EmbeddedResource Include="Equipment.ru-RU.resx">
       <DependentUpon>Equipment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main Window.en-US.resx">
+      <DependentUpon>Main Window.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main Window.resx">
       <DependentUpon>Main Window.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +200,9 @@
       <DependentUpon>Staff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier.ru-RU.resx">
       <DependentUpon>Supplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Supply.resx">
@@ -269,6 +275,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Database_equipment accounting.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\lingual_sphere.jpg" />
     <None Include="Resources\15f8153cb5f61ff9bfad853c2966eb6d.jpg" />
     <None Include="Resources\magnifying_glass_search_find_icon_131794.png" />
     <None Include="Resources\drawers_icon_131790.png" />

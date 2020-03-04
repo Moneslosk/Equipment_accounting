@@ -129,7 +129,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="idd_СкладаLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 77</value>
+    <value>0, 201</value>
   </data>
   <data name="idd_СкладаLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 24</value>
@@ -150,7 +150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;idd_СкладаLabel.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>21</value>
   </data>
   <metadata name="номер_паспортаLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -162,7 +162,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="номер_паспортаLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 42</value>
+    <value>423, 87</value>
   </data>
   <data name="номер_паспортаLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>178, 24</value>
@@ -183,7 +183,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;номер_паспортаLabel.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>22</value>
   </data>
   <metadata name="фамилияLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -195,7 +195,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="фамилияLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 47</value>
+    <value>14, 44</value>
   </data>
   <data name="фамилияLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 24</value>
@@ -216,7 +216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;фамилияLabel.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>23</value>
   </data>
   <metadata name="имяLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -228,7 +228,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="имяLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 82</value>
+    <value>53, 79</value>
   </data>
   <data name="имяLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 24</value>
@@ -249,7 +249,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;имяLabel.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>25</value>
   </data>
   <metadata name="отчествоLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -261,7 +261,7 @@
     <value>Microsoft Sans Serif, 14.5pt, style=Bold, Italic</value>
   </data>
   <data name="отчествоLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 117</value>
+    <value>4, 114</value>
   </data>
   <data name="отчествоLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 25</value>
@@ -282,7 +282,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;отчествоLabel.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>27</value>
   </data>
   <metadata name="должностьLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -294,7 +294,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="должностьLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 159</value>
+    <value>449, 28</value>
   </data>
   <data name="должностьLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 24</value>
@@ -315,7 +315,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;должностьLabel.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>29</value>
   </data>
   <metadata name="адрес_сотрудникаLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -327,7 +327,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="адрес_сотрудникаLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 200</value>
+    <value>40, 159</value>
   </data>
   <data name="адрес_сотрудникаLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 24</value>
@@ -348,39 +348,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;адрес_сотрудникаLabel.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <metadata name="номер_телефона_сотрудникаLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="номер_телефона_сотрудникаLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="номер_телефона_сотрудникаLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
-  </data>
-  <data name="номер_телефона_сотрудникаLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 239</value>
-  </data>
-  <data name="номер_телефона_сотрудникаLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 24</value>
-  </data>
-  <data name="номер_телефона_сотрудникаLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="номер_телефона_сотрудникаLabel.Text" xml:space="preserve">
-    <value>Номер телефона сотрудника:</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Name" xml:space="preserve">
-    <value>номер_телефона_сотрудникаLabel</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
   <metadata name="дата_рождения_сотрудникаLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -393,7 +360,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="дата_рождения_сотрудникаLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 282</value>
+    <value>97, 286</value>
   </data>
   <data name="дата_рождения_сотрудникаLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 24</value>
@@ -414,7 +381,40 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;дата_рождения_сотрудникаLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
+  </data>
+  <metadata name="номер_телефона_сотрудникаLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="номер_телефона_сотрудникаLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="номер_телефона_сотрудникаLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="номер_телефона_сотрудникаLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 244</value>
+  </data>
+  <data name="номер_телефона_сотрудникаLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 24</value>
+  </data>
+  <data name="номер_телефона_сотрудникаLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="номер_телефона_сотрудникаLabel.Text" xml:space="preserve">
+    <value>Номер телефона сотрудника:</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Name" xml:space="preserve">
+    <value>номер_телефона_сотрудникаLabel</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="database_equipment_accountingDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -462,7 +462,7 @@
     <value>0, 0</value>
   </data>
   <data name="сотрудникиBindingNavigator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>983, 25</value>
+    <value>1001, 25</value>
   </data>
   <data name="сотрудникиBindingNavigator.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -482,35 +482,11 @@
   <data name="&gt;&gt;сотрудникиBindingNavigator.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="номер_паспортаTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
-  </data>
-  <data name="номер_паспортаTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 43</value>
-  </data>
-  <data name="номер_паспортаTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="номер_паспортаTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;номер_паспортаTextBox.Name" xml:space="preserve">
-    <value>номер_паспортаTextBox</value>
-  </data>
-  <data name="&gt;&gt;номер_паспортаTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;номер_паспортаTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;номер_паспортаTextBox.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
   <data name="фамилияTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="фамилияTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>438, 45</value>
+    <value>124, 42</value>
   </data>
   <data name="фамилияTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>235, 26</value>
@@ -528,13 +504,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;фамилияTextBox.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>24</value>
   </data>
   <data name="имяTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="имяTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 78</value>
+    <value>123, 75</value>
   </data>
   <data name="имяTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 26</value>
@@ -552,13 +528,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;имяTextBox.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>26</value>
   </data>
   <data name="отчествоTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="отчествоTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 117</value>
+    <value>122, 114</value>
   </data>
   <data name="отчествоTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 26</value>
@@ -576,13 +552,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;отчествоTextBox.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>28</value>
   </data>
   <data name="должностьTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="должностьTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 158</value>
+    <value>396, 55</value>
   </data>
   <data name="должностьTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 26</value>
@@ -600,7 +576,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;должностьTextBox.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>30</value>
   </data>
   <data name="адрес_сотрудникаTextBox.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -609,10 +585,10 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="адрес_сотрудникаTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 199</value>
+    <value>240, 158</value>
   </data>
   <data name="адрес_сотрудникаTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>485, 26</value>
+    <value>440, 26</value>
   </data>
   <data name="адрес_сотрудникаTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -627,30 +603,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;адрес_сотрудникаTextBox.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="номер_телефона_сотрудникаTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt, style=Bold</value>
-  </data>
-  <data name="номер_телефона_сотрудникаTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 239</value>
-  </data>
-  <data name="номер_телефона_сотрудникаTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 26</value>
-  </data>
-  <data name="номер_телефона_сотрудникаTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаTextBox.Name" xml:space="preserve">
-    <value>номер_телефона_сотрудникаTextBox</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_сотрудникаTextBox.ZOrder" xml:space="preserve">
     <value>32</value>
   </data>
   <metadata name="складBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -660,10 +612,10 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 77</value>
+    <value>240, 199</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 27</value>
+    <value>440, 27</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -678,11 +630,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>20</value>
   </data>
-  <metadata name="складBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1060, 17</value>
-  </metadata>
   <metadata name="складBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
@@ -694,7 +643,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 339</value>
+    <value>230, 332</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 56</value>
@@ -712,7 +661,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="button7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -721,7 +670,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>635, 339</value>
+    <value>629, 332</value>
   </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 56</value>
@@ -739,7 +688,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="button6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -748,7 +697,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 339</value>
+    <value>277, 332</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 56</value>
@@ -766,7 +715,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="button5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -775,7 +724,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>588, 339</value>
+    <value>582, 332</value>
   </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 56</value>
@@ -793,13 +742,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 370</value>
+    <value>463, 363</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
@@ -820,13 +769,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 331</value>
+    <value>463, 324</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
@@ -847,13 +796,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 331</value>
+    <value>324, 324</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 33</value>
@@ -874,13 +823,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 370</value>
+    <value>324, 363</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 33</value>
@@ -901,13 +850,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="дата_рождения_сотрудникаDateTimePicker.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="дата_рождения_сотрудникаDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 281</value>
+    <value>395, 285</value>
   </data>
   <data name="дата_рождения_сотрудникаDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 26</value>
@@ -925,7 +874,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;дата_рождения_сотрудникаDateTimePicker.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>689, 28</value>
@@ -949,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
@@ -958,7 +907,7 @@
     <value>NoControl</value>
   </data>
   <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>775, 197</value>
+    <value>689, 197</value>
   </data>
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 28</value>
@@ -982,7 +931,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -991,7 +940,7 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>824, 242</value>
+    <value>738, 238</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 24</value>
@@ -1015,7 +964,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1027,7 +976,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>771, 281</value>
+    <value>685, 277</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 24</value>
@@ -1051,7 +1000,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="button10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
@@ -1060,7 +1009,7 @@
     <value>NoControl</value>
   </data>
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>775, 313</value>
+    <value>689, 309</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 51</value>
@@ -1084,13 +1033,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>908, 240</value>
+    <value>822, 236</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 26</value>
@@ -1111,13 +1060,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>908, 279</value>
+    <value>822, 275</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 26</value>
@@ -1138,22 +1087,73 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="номер_телефона_сотрудникаMaskedTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="номер_телефона_сотрудникаMaskedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 242</value>
+  </data>
+  <data name="номер_телефона_сотрудникаMaskedTextBox.Mask" xml:space="preserve">
+    <value>+ 000(00) 000-00-00</value>
+  </data>
+  <data name="номер_телефона_сотрудникаMaskedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 26</value>
+  </data>
+  <data name="номер_телефона_сотрудникаMaskedTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаMaskedTextBox.Name" xml:space="preserve">
+    <value>номер_телефона_сотрудникаMaskedTextBox</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаMaskedTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаMaskedTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_сотрудникаMaskedTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="номер_паспортаMaskedTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="номер_паспортаMaskedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 115</value>
+  </data>
+  <data name="номер_паспортаMaskedTextBox.Mask" xml:space="preserve">
+    <value>LL 0000000</value>
+  </data>
+  <data name="номер_паспортаMaskedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 26</value>
+  </data>
+  <data name="номер_паспортаMaskedTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;номер_паспортаMaskedTextBox.Name" xml:space="preserve">
+    <value>номер_паспортаMaskedTextBox</value>
+  </data>
+  <data name="&gt;&gt;номер_паспортаMaskedTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;номер_паспортаMaskedTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;номер_паспортаMaskedTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>983, 415</value>
+    <value>1001, 550</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>Manual</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Staff</value>

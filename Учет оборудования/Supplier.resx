@@ -121,11 +121,14 @@
   <data name="адрес_поставщикаLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
-  <data name="&gt;&gt;номер_телефона_поставщикаLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;номер_телефона_поставщикаMaskedTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаLabel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 33</value>
+  <data name="адрес_поставщикаTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 87</value>
   </data>
   <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
     <value>Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.TableAdapterManager, Database_equipment_accountingDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -140,6 +143,9 @@
   <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
     <value>tableAdapterManager</value>
   </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -147,14 +153,20 @@
   <data name="&gt;&gt;поставщикBindingNavigator.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 33</value>
+  </data>
   <data name="button8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 189</value>
   </data>
-  <data name="bindingNavigatorCountItem.Text" xml:space="preserve">
-    <value>для {0}</value>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="адрес_поставщикаLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 24</value>
@@ -171,9 +183,6 @@
   <data name="номер_телефона_поставщикаTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 29</value>
   </data>
-  <data name="адрес_поставщикаTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>352, 87</value>
-  </data>
   <data name="номер_телефона_поставщикаLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
@@ -189,8 +198,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Supplier</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Сохранить</value>
+  <data name="поставщикBindingNavigator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;database_equipment_accountingDataSet.Name" xml:space="preserve">
     <value>database_equipment_accountingDataSet</value>
@@ -201,11 +210,11 @@
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>329, 228</value>
   </data>
-  <data name="&gt;&gt;адрес_поставщикаTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаMaskedTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;button7.Parent" xml:space="preserve">
     <value>$this</value>
@@ -213,14 +222,11 @@
   <data name="номер_телефона_поставщикаLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>48, 135</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;bindingNavigatorPositionItem.Name" xml:space="preserve">
+    <value>bindingNavigatorPositionItem</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 56</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -250,16 +256,19 @@
     <value>Номер телефона поставщика:</value>
   </data>
   <data name="&gt;&gt;наименование_поставщикаTextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="bindingNavigatorPositionItem.AccessibleName" xml:space="preserve">
     <value>Position</value>
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;адрес_поставщикаTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаLabel1.Name" xml:space="preserve">
+    <value>номер_телефона_поставщикаLabel1</value>
   </data>
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -275,6 +284,12 @@
   </data>
   <data name="адрес_поставщикаTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="номер_телефона_поставщикаMaskedTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -300,6 +315,9 @@
   <data name="номер_телефона_поставщикаLabel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="номер_телефона_поставщикаLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 153</value>
+  </data>
   <data name="&gt;&gt;button8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -307,13 +325,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;адрес_поставщикаLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="номер_телефона_поставщикаLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
   </data>
   <data name="наименование_поставщикаLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -343,7 +364,10 @@
     <value>наименование_поставщикаTextBox</value>
   </data>
   <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Сохранить</value>
   </data>
   <data name="&gt;&gt;адрес_поставщикаLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -357,8 +381,8 @@
   <data name="&gt;&gt;наименование_поставщикаTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bindingNavigatorCountItem.Text" xml:space="preserve">
+    <value>для {0}</value>
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -366,11 +390,8 @@
   <data name="&gt;&gt;поставщикBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="поставщикBindingNavigator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Таблица</value>
+  <data name="&gt;&gt;номер_телефона_поставщикаMaskedTextBox.Name" xml:space="preserve">
+    <value>номер_телефона_поставщикаMaskedTextBox</value>
   </data>
   <data name="&gt;&gt;поставщикBindingNavigator.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -391,7 +412,7 @@
     <value>352, 48</value>
   </data>
   <data name="&gt;&gt;наименование_поставщикаLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -409,16 +430,16 @@
     <value>36</value>
   </data>
   <data name="&gt;&gt;номер_телефона_поставщикаLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;номер_телефона_поставщикаTextBox.ZOrder" xml:space="preserve">
     <value>13</value>
+  </data>
+  <data name="button6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="номер_телефона_поставщикаTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>352, 132</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
     <value>141, 197</value>
@@ -431,6 +452,9 @@
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
+  </data>
+  <data name="номер_телефона_поставщикаMaskedTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
   <data name="наименование_поставщикаTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -454,10 +478,10 @@
     <value>69, 48</value>
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Таблица</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
     <value>495, 197</value>
@@ -474,6 +498,9 @@
   <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаMaskedTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
@@ -484,13 +511,10 @@
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
   </data>
   <data name="&gt;&gt;адрес_поставщикаLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
-  </data>
-  <data name="button6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
   </data>
   <data name="&gt;&gt;поставщикBindingNavigator.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -504,26 +528,38 @@
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 197</value>
   </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;адрес_поставщикаTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;номер_телефона_поставщикаLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorPositionItem.Name" xml:space="preserve">
-    <value>bindingNavigatorPositionItem</value>
+  <data name="&gt;&gt;адрес_поставщикаTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="номер_телефона_поставщикаLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;номер_телефона_поставщикаLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="номер_телефона_поставщикаMaskedTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 150</value>
+  </data>
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold, Italic</value>
@@ -585,6 +621,9 @@
   <data name="адрес_поставщикаLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 88</value>
   </data>
+  <data name="&gt;&gt;адрес_поставщикаTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;поставщикBindingSource.Name" xml:space="preserve">
     <value>поставщикBindingSource</value>
   </data>
@@ -606,8 +645,11 @@
   <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>668, 17</value>
   </metadata>
-  <metadata name="поставщикBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>839, 17</value>
+  <metadata name="номер_телефона_поставщикаLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>ru-RU</value>
@@ -615,8 +657,8 @@
   <metadata name="database_equipment_accountingDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <metadata name="поставщикBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>839, 17</value>
   </metadata>
   <metadata name="поставщикBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>290, 17</value>

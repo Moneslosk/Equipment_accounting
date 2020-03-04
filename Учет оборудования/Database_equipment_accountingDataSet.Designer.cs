@@ -1666,7 +1666,7 @@ namespace Учет_оборудования {
                 this.columnАдрес_поставщика.AllowDBNull = false;
                 this.columnАдрес_поставщика.MaxLength = 40;
                 this.columnНомер_телефона_поставщика.AllowDBNull = false;
-                this.columnНомер_телефона_поставщика.MaxLength = 12;
+                this.columnНомер_телефона_поставщика.MaxLength = 100;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1960,7 +1960,7 @@ namespace Учет_оборудования {
                 this.columnАдрес_склад.AllowDBNull = false;
                 this.columnАдрес_склад.MaxLength = 100;
                 this.columnНомер_телефона_склада.AllowDBNull = false;
-                this.columnНомер_телефона_склада.MaxLength = 12;
+                this.columnНомер_телефона_склада.MaxLength = 100;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2353,7 +2353,7 @@ namespace Учет_оборудования {
                 this.columnID_Сотрудника.ReadOnly = true;
                 this.columnID_Сотрудника.Unique = true;
                 this.columnНомер_паспорта.AllowDBNull = false;
-                this.columnНомер_паспорта.MaxLength = 9;
+                this.columnНомер_паспорта.MaxLength = 100;
                 this.columnФамилия.AllowDBNull = false;
                 this.columnФамилия.MaxLength = 40;
                 this.columnИмя.AllowDBNull = false;
@@ -2365,7 +2365,7 @@ namespace Учет_оборудования {
                 this.columnАдрес_сотрудника.AllowDBNull = false;
                 this.columnАдрес_сотрудника.MaxLength = 100;
                 this.columnНомер_телефона_сотрудника.AllowDBNull = false;
-                this.columnНомер_телефона_сотрудника.MaxLength = 12;
+                this.columnНомер_телефона_сотрудника.MaxLength = 100;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

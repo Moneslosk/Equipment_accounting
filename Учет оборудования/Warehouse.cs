@@ -7678,11 +7678,11 @@ namespace Учет_оборудования
 			this.складBindingSource.MoveFirst();
 		}
 
-    void Find(TreeNodeCollection Nodes, string str)
+   async void Find(TreeNodeCollection Nodes, string str)
         {
             foreach (TreeNode tn in Nodes)
             {
-                if (tn.Text ==str)
+                if (tn.Text.Contains(str))
                 {
                     treeView1.Focus();
                     treeView1.SelectedNode = tn;
@@ -7722,9 +7722,18 @@ namespace Учет_оборудования
 
         private void button11_Click(object sender, EventArgs e)
         {
-            string zdanie = адрес_складTextBox.Text + (", здание " + textBox2.Text);
-            адрес_складTextBox.Text = zdanie;
-            button11.Enabled = false;
+            string zdanie = (", здание " + textBox2.Text);
+            string adres_sklada = адрес_складTextBox.Text;
+
+            if (!adres_sklada.Contains(", здание "))
+            {
+                адрес_складTextBox.Text = adres_sklada + zdanie;
+            }
+            else
+            {
+                var ddd = adres_sklada.Substring(adres_sklada.IndexOf(", здание "));
+                адрес_складTextBox.Text = adres_sklada.Replace(ddd, zdanie);
+            }
         }
     }
 }

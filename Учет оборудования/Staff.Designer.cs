@@ -37,8 +37,8 @@
             System.Windows.Forms.Label отчествоLabel;
             System.Windows.Forms.Label должностьLabel;
             System.Windows.Forms.Label адрес_сотрудникаLabel;
-            System.Windows.Forms.Label номер_телефона_сотрудникаLabel;
             System.Windows.Forms.Label дата_рождения_сотрудникаLabel;
+            System.Windows.Forms.Label номер_телефона_сотрудникаLabel;
             this.database_equipment_accountingDataSet = new Учет_оборудования.Database_equipment_accountingDataSet();
             this.сотрудникиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.сотрудникиTableAdapter = new Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.СотрудникиTableAdapter();
@@ -47,13 +47,11 @@
             this.сотрудникиBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.номер_паспортаTextBox = new System.Windows.Forms.TextBox();
             this.фамилияTextBox = new System.Windows.Forms.TextBox();
             this.имяTextBox = new System.Windows.Forms.TextBox();
             this.отчествоTextBox = new System.Windows.Forms.TextBox();
             this.должностьTextBox = new System.Windows.Forms.TextBox();
             this.адрес_сотрудникаTextBox = new System.Windows.Forms.TextBox();
-            this.номер_телефона_сотрудникаTextBox = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.складBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.складBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -73,6 +71,8 @@
             this.button10 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.номер_телефона_сотрудникаMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.номер_паспортаMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             idd_СкладаLabel = new System.Windows.Forms.Label();
             номер_паспортаLabel = new System.Windows.Forms.Label();
             фамилияLabel = new System.Windows.Forms.Label();
@@ -80,8 +80,8 @@
             отчествоLabel = new System.Windows.Forms.Label();
             должностьLabel = new System.Windows.Forms.Label();
             адрес_сотрудникаLabel = new System.Windows.Forms.Label();
-            номер_телефона_сотрудникаLabel = new System.Windows.Forms.Label();
             дата_рождения_сотрудникаLabel = new System.Windows.Forms.Label();
+            номер_телефона_сотрудникаLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.сотрудникиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.сотрудникиBindingNavigator)).BeginInit();
@@ -132,17 +132,17 @@
             адрес_сотрудникаLabel.BackColor = System.Drawing.Color.Transparent;
             адрес_сотрудникаLabel.Name = "адрес_сотрудникаLabel";
             // 
-            // номер_телефона_сотрудникаLabel
-            // 
-            resources.ApplyResources(номер_телефона_сотрудникаLabel, "номер_телефона_сотрудникаLabel");
-            номер_телефона_сотрудникаLabel.BackColor = System.Drawing.Color.Transparent;
-            номер_телефона_сотрудникаLabel.Name = "номер_телефона_сотрудникаLabel";
-            // 
             // дата_рождения_сотрудникаLabel
             // 
             resources.ApplyResources(дата_рождения_сотрудникаLabel, "дата_рождения_сотрудникаLabel");
             дата_рождения_сотрудникаLabel.BackColor = System.Drawing.Color.Transparent;
             дата_рождения_сотрудникаLabel.Name = "дата_рождения_сотрудникаLabel";
+            // 
+            // номер_телефона_сотрудникаLabel
+            // 
+            resources.ApplyResources(номер_телефона_сотрудникаLabel, "номер_телефона_сотрудникаLabel");
+            номер_телефона_сотрудникаLabel.BackColor = System.Drawing.Color.Transparent;
+            номер_телефона_сотрудникаLabel.Name = "номер_телефона_сотрудникаLabel";
             // 
             // database_equipment_accountingDataSet
             // 
@@ -200,12 +200,6 @@
             resources.ApplyResources(this.bindingNavigatorPositionItem, "bindingNavigatorPositionItem");
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             // 
-            // номер_паспортаTextBox
-            // 
-            this.номер_паспортаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Номер_паспорта", true));
-            resources.ApplyResources(this.номер_паспортаTextBox, "номер_паспортаTextBox");
-            this.номер_паспортаTextBox.Name = "номер_паспортаTextBox";
-            // 
             // фамилияTextBox
             // 
             this.фамилияTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Фамилия", true));
@@ -236,12 +230,6 @@
             resources.ApplyResources(this.адрес_сотрудникаTextBox, "адрес_сотрудникаTextBox");
             this.адрес_сотрудникаTextBox.Name = "адрес_сотрудникаTextBox";
             this.адрес_сотрудникаTextBox.TextChanged += new System.EventHandler(this.адрес_сотрудникаTextBox_TextChanged);
-            // 
-            // номер_телефона_сотрудникаTextBox
-            // 
-            this.номер_телефона_сотрудникаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Номер_телефона_сотрудника", true));
-            resources.ApplyResources(this.номер_телефона_сотрудникаTextBox, "номер_телефона_сотрудникаTextBox");
-            this.номер_телефона_сотрудникаTextBox.Name = "номер_телефона_сотрудникаTextBox";
             // 
             // comboBox1
             // 
@@ -371,11 +359,26 @@
             resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
             // 
+            // номер_телефона_сотрудникаMaskedTextBox
+            // 
+            this.номер_телефона_сотрудникаMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Номер_телефона_сотрудника", true));
+            resources.ApplyResources(this.номер_телефона_сотрудникаMaskedTextBox, "номер_телефона_сотрудникаMaskedTextBox");
+            this.номер_телефона_сотрудникаMaskedTextBox.Name = "номер_телефона_сотрудникаMaskedTextBox";
+            // 
+            // номер_паспортаMaskedTextBox
+            // 
+            this.номер_паспортаMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Номер_паспорта", true));
+            resources.ApplyResources(this.номер_паспортаMaskedTextBox, "номер_паспортаMaskedTextBox");
+            this.номер_паспортаMaskedTextBox.Name = "номер_паспортаMaskedTextBox";
+            // 
             // Staff
             // 
-            resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::Учет_оборудования.Properties.Resources._15f8153cb5f61ff9bfad853c2966eb6d;
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.номер_паспортаMaskedTextBox);
+            this.Controls.Add(номер_телефона_сотрудникаLabel);
+            this.Controls.Add(this.номер_телефона_сотрудникаMaskedTextBox);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button10);
@@ -396,7 +399,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(idd_СкладаLabel);
             this.Controls.Add(номер_паспортаLabel);
-            this.Controls.Add(this.номер_паспортаTextBox);
             this.Controls.Add(фамилияLabel);
             this.Controls.Add(this.фамилияTextBox);
             this.Controls.Add(имяLabel);
@@ -407,11 +409,7 @@
             this.Controls.Add(this.должностьTextBox);
             this.Controls.Add(адрес_сотрудникаLabel);
             this.Controls.Add(this.адрес_сотрудникаTextBox);
-            this.Controls.Add(номер_телефона_сотрудникаLabel);
-            this.Controls.Add(this.номер_телефона_сотрудникаTextBox);
             this.Controls.Add(this.сотрудникиBindingNavigator);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Staff";
             this.Load += new System.EventHandler(this.Staff_Load);
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).EndInit();
@@ -436,13 +434,11 @@
 		private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
 		private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
 		private Database_equipment_accountingDataSetTableAdapters.СкладTableAdapter складTableAdapter;
-		private System.Windows.Forms.TextBox номер_паспортаTextBox;
 		private System.Windows.Forms.TextBox фамилияTextBox;
 		private System.Windows.Forms.TextBox имяTextBox;
 		private System.Windows.Forms.TextBox отчествоTextBox;
 		private System.Windows.Forms.TextBox должностьTextBox;
 		private System.Windows.Forms.TextBox адрес_сотрудникаTextBox;
-		private System.Windows.Forms.TextBox номер_телефона_сотрудникаTextBox;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.BindingSource складBindingSource;
 		private System.Windows.Forms.BindingSource складBindingSource1;
@@ -462,5 +458,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.MaskedTextBox номер_телефона_сотрудникаMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox номер_паспортаMaskedTextBox;
     }
 }

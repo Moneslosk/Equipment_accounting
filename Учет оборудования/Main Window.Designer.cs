@@ -55,13 +55,15 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.складBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database_equipment_accountingDataSet = new Учет_оборудования.Database_equipment_accountingDataSet();
-            this.databaseequipmentaccountingDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.складTableAdapter = new Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.СкладTableAdapter();
-            this.tableAdapterManager = new Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.TableAdapterManager();
             this.поставщикTableAdapter = new Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.ПоставщикTableAdapter();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.складBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.databaseequipmentaccountingDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tableAdapterManager = new Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.TableAdapterManager();
             this.поставщикBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -74,8 +76,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.складBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.складBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.databaseequipmentaccountingDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.поставщикBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -172,132 +174,153 @@
             // 
             // pictureBox11
             // 
-            resources.ApplyResources(this.pictureBox11, "pictureBox11");
             this.pictureBox11.Image = global::Учет_оборудования.Properties.Resources.magnifying_glass_search_find_icon_131794;
+            resources.ApplyResources(this.pictureBox11, "pictureBox11");
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.TabStop = false;
             // 
             // pictureBox10
             // 
-            resources.ApplyResources(this.pictureBox10, "pictureBox10");
             this.pictureBox10.Image = global::Учет_оборудования.Properties.Resources.drawers_icon_131790;
+            resources.ApplyResources(this.pictureBox10, "pictureBox10");
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.TabStop = false;
             // 
             // pictureBox9
             // 
-            resources.ApplyResources(this.pictureBox9, "pictureBox9");
             this.pictureBox9.Image = global::Учет_оборудования.Properties.Resources.drawers_icon_131790;
+            resources.ApplyResources(this.pictureBox9, "pictureBox9");
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.TabStop = false;
             // 
             // pictureBox8
             // 
-            resources.ApplyResources(this.pictureBox8, "pictureBox8");
             this.pictureBox8.Image = global::Учет_оборудования.Properties.Resources.books_icon_131785;
+            resources.ApplyResources(this.pictureBox8, "pictureBox8");
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox7
             // 
-            resources.ApplyResources(this.pictureBox7, "pictureBox7");
             this.pictureBox7.Image = global::Учет_оборудования.Properties.Resources.books_icon_131785;
+            resources.ApplyResources(this.pictureBox7, "pictureBox7");
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.TabStop = false;
             // 
             // pictureBox6
             // 
-            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Image = global::Учет_оборудования.Properties.Resources.smartphone_icon_131802;
+            resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
-            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Image = global::Учет_оборудования.Properties.Resources.smartphone_icon_131802;
+            resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
-            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Image = global::Учет_оборудования.Properties.Resources.customer_person_people_man_you_1625;
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Image = global::Учет_оборудования.Properties.Resources.customer_person_people_man_you_1625;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Image = global::Учет_оборудования.Properties.Resources.person_paper_id_card_profile_user_icon_131800;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::Учет_оборудования.Properties.Resources.person_paper_id_card_profile_user_icon_131800;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox12
             // 
-            resources.ApplyResources(this.pictureBox12, "pictureBox12");
             this.pictureBox12.Image = global::Учет_оборудования.Properties.Resources.magnifying_glass_search_find_icon_131794;
+            resources.ApplyResources(this.pictureBox12, "pictureBox12");
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.TabStop = false;
-            // 
-            // складBindingSource
-            // 
-            this.складBindingSource.DataMember = "Склад";
-            this.складBindingSource.DataSource = this.database_equipment_accountingDataSet;
             // 
             // database_equipment_accountingDataSet
             // 
             this.database_equipment_accountingDataSet.DataSetName = "Database_equipment_accountingDataSet";
             this.database_equipment_accountingDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // складTableAdapter
+            // 
+            this.складTableAdapter.ClearBeforeFill = true;
+            // 
+            // поставщикTableAdapter
+            // 
+            this.поставщикTableAdapter.ClearBeforeFill = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // складBindingSource
+            // 
+            this.складBindingSource.DataMember = "Склад";
+            this.складBindingSource.DataSource = this.database_equipment_accountingDataSet;
+            // 
             // databaseequipmentaccountingDataSetBindingSource
             // 
             this.databaseequipmentaccountingDataSetBindingSource.DataSource = this.database_equipment_accountingDataSet;
             this.databaseequipmentaccountingDataSetBindingSource.Position = 0;
             // 
-            // складTableAdapter
-            // 
-            this.складTableAdapter.ClearBeforeFill = true;
-            // 
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.Connection = null;
             this.tableAdapterManager.UpdateOrder = Учет_оборудования.Database_equipment_accountingDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.КатегорииTableAdapter = null;
             this.tableAdapterManager.ОборудованиеTableAdapter = null;
             this.tableAdapterManager.ПоставкаTableAdapter = null;
-            this.tableAdapterManager.ПоставщикTableAdapter = this.поставщикTableAdapter;
-            this.tableAdapterManager.СкладTableAdapter = this.складTableAdapter;
+            this.tableAdapterManager.ПоставщикTableAdapter = null;
+            this.tableAdapterManager.СкладTableAdapter = null;
             this.tableAdapterManager.СотрудникиTableAdapter = null;
-            // 
-            // поставщикTableAdapter
-            // 
-            this.поставщикTableAdapter.ClearBeforeFill = true;
             // 
             // поставщикBindingSource
             // 
             this.поставщикBindingSource.DataMember = "Поставщик";
             this.поставщикBindingSource.DataSource = this.database_equipment_accountingDataSet;
             // 
+            // button7
+            // 
+            this.button7.BackgroundImage = global::Учет_оборудования.Properties.Resources.lingual_sphere;
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.Name = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Учет_оборудования.Properties.Resources._15f8153cb5f61ff9bfad853c2966eb6d;
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
@@ -324,6 +347,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -337,8 +361,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.складBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database_equipment_accountingDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.складBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.databaseequipmentaccountingDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.поставщикBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -379,6 +403,8 @@
 		private System.Windows.Forms.PictureBox pictureBox10;
 		private System.Windows.Forms.PictureBox pictureBox11;
 		private System.Windows.Forms.PictureBox pictureBox12;
-	}
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button7;
+    }
 }
 

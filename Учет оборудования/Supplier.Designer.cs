@@ -42,7 +42,6 @@
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
             this.наименование_поставщикаTextBox = new System.Windows.Forms.TextBox();
             this.адрес_поставщикаTextBox = new System.Windows.Forms.TextBox();
-            this.номер_телефона_поставщикаTextBox = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -51,6 +50,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.номер_телефона_поставщикаMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             наименование_поставщикаLabel = new System.Windows.Forms.Label();
             адрес_поставщикаLabel = new System.Windows.Forms.Label();
             номер_телефона_поставщикаLabel = new System.Windows.Forms.Label();
@@ -142,12 +142,6 @@
             this.адрес_поставщикаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.поставщикBindingSource, "Адрес_поставщика", true));
             this.адрес_поставщикаTextBox.Name = "адрес_поставщикаTextBox";
             // 
-            // номер_телефона_поставщикаTextBox
-            // 
-            resources.ApplyResources(this.номер_телефона_поставщикаTextBox, "номер_телефона_поставщикаTextBox");
-            this.номер_телефона_поставщикаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.поставщикBindingSource, "Номер_телефона_поставщика", true));
-            this.номер_телефона_поставщикаTextBox.Name = "номер_телефона_поставщикаTextBox";
-            // 
             // button4
             // 
             resources.ApplyResources(this.button4, "button4");
@@ -208,11 +202,18 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // номер_телефона_поставщикаMaskedTextBox
+            // 
+            resources.ApplyResources(this.номер_телефона_поставщикаMaskedTextBox, "номер_телефона_поставщикаMaskedTextBox");
+            this.номер_телефона_поставщикаMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.поставщикBindingSource, "Номер_телефона_поставщика", true));
+            this.номер_телефона_поставщикаMaskedTextBox.Name = "номер_телефона_поставщикаMaskedTextBox";
+            // 
             // Supplier
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Учет_оборудования.Properties.Resources._15f8153cb5f61ff9bfad853c2966eb6d;
+            this.Controls.Add(this.номер_телефона_поставщикаMaskedTextBox);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -226,7 +227,6 @@
             this.Controls.Add(адрес_поставщикаLabel);
             this.Controls.Add(this.адрес_поставщикаTextBox);
             this.Controls.Add(номер_телефона_поставщикаLabel);
-            this.Controls.Add(this.номер_телефона_поставщикаTextBox);
             this.Controls.Add(this.поставщикBindingNavigator);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -253,7 +253,6 @@
 		private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
 		private System.Windows.Forms.TextBox наименование_поставщикаTextBox;
 		private System.Windows.Forms.TextBox адрес_поставщикаTextBox;
-		private System.Windows.Forms.TextBox номер_телефона_поставщикаTextBox;
 		private System.Windows.Forms.Button button8;
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Button button6;
@@ -262,5 +261,6 @@
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
-	}
+        private System.Windows.Forms.MaskedTextBox номер_телефона_поставщикаMaskedTextBox;
+    }
 }

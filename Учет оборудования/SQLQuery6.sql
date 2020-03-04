@@ -1,1 +1,0 @@
-﻿alter table Сотрудники alter column Номер_паспорта nvarchar(100)

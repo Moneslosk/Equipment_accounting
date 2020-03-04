@@ -1,1 +1,0 @@
-﻿alter table dbo.Сотрудники Add Дата_рождения date
